@@ -18,6 +18,9 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "@vueuse/components": "^10.1.2"
+  },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
     "typescript": "^5.1.2",
