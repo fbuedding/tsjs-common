@@ -4,7 +4,7 @@
   "author": "Fabian Büdding",
   "version": "1.1.0",
   "main": "./dist/vue-components.umd.js",
-  "module": "./dist/vue-components.js",
+  "module": "./dist/vue-components.mjs",
   "types": "./dist/index.d.ts",
   "private": false,
   "exports": {
