@@ -22,7 +22,7 @@ const onResize = ({ height }: { height: number }) => {
       v-element-size="onResize"
       :style="{ width: props.width }"
     >
-        <slot>No Title provided</slot>
+        <slot>No title provided!</slot>
 
     </h1>
 

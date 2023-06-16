@@ -13,14 +13,15 @@
       "require": "./dist/vue-components.js"
     }
   },
+
   "keywords": [
     "vue",
     "vue3",
     "component",
     "library"
   ],
-  "publishConfig": {
-    "access": "public"
+  "publish": {
+    "registry": "https://npm.pkg.github.com/fbuedding"
   },
   "scripts": {
     "dev": "vite",
@@ -41,5 +42,5 @@
   "peerDependencies": {
     "vue": "^3.3.4"
   },
-  "gitHead": "2d46f01d79dff63d7d232c7b7c69016f88624558"
+  "gitHead": "a92807cd42e4b1c9b4283d3a1aa05ef38873791d"
 }
