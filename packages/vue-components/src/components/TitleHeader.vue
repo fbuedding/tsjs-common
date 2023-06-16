@@ -22,7 +22,6 @@ const onResize = ({ height }: { height: number }) => {
       v-element-size="onResize"
       :style="{ width: props.width }"
     >
-
         <slot>Default Title</slot>
 
     </h1>
