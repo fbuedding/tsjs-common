@@ -6,6 +6,7 @@
   "main": "./dist/vue-components.umd.js",
   "module": "./dist/vue-components.js",
   "types": "./dist/index.d.ts",
+  "private": false,
   "exports": {
     ".": {
       "import": "./dist/vue-components.esm.js",
