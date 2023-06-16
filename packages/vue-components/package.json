@@ -13,7 +13,12 @@
       "require": "./dist/vue-components.js"
     }
   },
-
+  "keywords": [
+    "vue",
+    "vue3",
+    "component",
+    "library"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
