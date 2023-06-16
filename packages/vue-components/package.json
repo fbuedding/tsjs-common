@@ -2,7 +2,7 @@
   "name": "@fbuedding/vue-components",
   "description": "A simple library with (to be) filled with components I use often.",
   "author": "Fabian Büdding",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "./dist/vue-components.umd.js",
   "module": "./dist/vue-components.js",
   "types": "./dist/index.d.ts",
