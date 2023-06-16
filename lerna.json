@@ -4,7 +4,7 @@
   "version": "independent",
   "command": {
     "publish": {
-      "registry": "https://npm.pkg.github.com/fbuedding"
+      "registry": "https://registry.npmjs.org/"
     }
   }
 }
