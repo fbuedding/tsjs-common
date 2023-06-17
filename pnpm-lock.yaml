@@ -54,6 +54,9 @@ importers:
       vite-plugin-dts:
         specifier: ^2.3.0
         version: 2.3.0(@types/node@20.3.1)(rollup@3.25.1)(vite@4.3.9)
+      vite-plugin-style-inject:
+        specifier: ^0.0.1
+        version: 0.0.1(vite@4.3.9)
       vue:
         specifier: ^3.3.4
         version: 3.3.4
@@ -5419,6 +5422,14 @@ packages:
       - '@types/node'
       - rollup
       - supports-color
+    dev: true
+
+  /vite-plugin-style-inject@0.0.1(vite@4.3.9):
+    resolution: {integrity: sha512-VsaBOb8ozMQn3kpMt4gIcyNt4BRMQ3Cq30eLIBtq1CH8U6iB1FnxVYspwITzJdXbMQA61QhyAx9QnNLwVRbDlg==}
+    peerDependencies:
+      vite: ^2.0.0
+    dependencies:
+      vite: 4.3.9(@types/node@20.3.1)
     dev: true
 
   /vite@4.3.9(@types/node@20.3.1):

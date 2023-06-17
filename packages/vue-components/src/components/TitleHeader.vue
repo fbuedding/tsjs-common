@@ -14,7 +14,6 @@ const onResize = ({ height }: { height: number }) => {
 };
 </script>
 <template>
-<head></head>
   <header id="title-header-component" class="min-width">
     <div class="title-margin-div"></div>
     <h1
