@@ -13,8 +13,8 @@ const onResize = ({ height }: { height: number }) => {
   emit("heightChanged", height);
 };
 </script>
-
 <template>
+<head></head>
   <header id="title-header-component" class="min-width">
     <div class="title-margin-div"></div>
     <h1
@@ -33,7 +33,7 @@ const onResize = ({ height }: { height: number }) => {
 </template>
 
 <style scoped>
-header {
+#title-header-component {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -49,7 +49,7 @@ header div {
 }
 
 #title-header-component #title-heading {
-  padding: var(--padding);
+
   min-width: fit-content;
 }
 
