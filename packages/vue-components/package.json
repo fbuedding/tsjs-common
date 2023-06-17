@@ -2,9 +2,9 @@
   "name": "@fbuedding/vue-components",
   "description": "A simple library with (to be) filled with components I use often.",
   "author": "Fabian Büdding",
-  "version": "1.1.1",
+  "version": "1.0.0",
   "main": "./dist/vue-components.umd.js",
-  "module": "./dist/vue-components.js",
+  "module": "./dist/vue-components.mjs",
   "types": "./dist/index.d.ts",
   "private": false,
   "files": [
@@ -13,7 +13,7 @@
   "exports": {
     ".": {
       "import": "./dist/vue-components.esm.js",
-      "require": "./dist/vue-components.js"
+      "require": "./dist/vue-components.mjs"
     }
   },
   "keywords": [
