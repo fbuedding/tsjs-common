@@ -23,7 +23,7 @@ const onResize = ({ height }: { height: number }) => {
       :style="{ width: props.width }"
     >
         <slot>
-          No title!!
+          No title!
         </slot>
 
     </h1>
