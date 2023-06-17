@@ -13,7 +13,7 @@ export default defineConfig({
       // @ts-ignore
       entry: resolve(__dirname, "src/index.ts"),
       name: "VueComponents",
-      fileName: "vue-components",
+      fileName: (format) => `vue-components.${format}.js`,
     },
     rollupOptions: {
       external: ["vue"],
